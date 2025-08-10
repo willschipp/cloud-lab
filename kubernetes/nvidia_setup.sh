@@ -1,0 +1,1 @@
+# setup nvidia for kubernetes
