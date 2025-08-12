@@ -19,3 +19,5 @@ until kubectl --kubeconfig /home/$USER_NAME/.kube/config get pods -n gpu-operato
     kubectl --kubeconfig /home/$USER_NAME/.kube/config get pods -n gpu-operator
     sleep 5
 done
+
+echo "Nvidia pods are running"
